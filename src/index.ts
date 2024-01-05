@@ -3,7 +3,8 @@ import {
   extractQueryArgs,
   getReferencedObject,
 } from "./floro-generator-schema-api";
-import floroGeneratorFile from "../floro/floro.generator.json";
+//@ts-ignore
+import floroGeneratorFile from "../floro/floro.generator.json" assert {type: "json"};
 import {
   quicktype,
   InputData,
