@@ -1,5 +1,5 @@
 {
-    "name": "theme-generator",
+    "name": "themes-generator",
     "dependencies": {
         "theme": "0.0.40"
     }
